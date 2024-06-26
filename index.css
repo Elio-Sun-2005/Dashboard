@@ -1,0 +1,33 @@
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #333;
+  color: rgb(255, 0, 0);
+  height: 100vh;
+  padding: 20px;
+}
+
+.sidebar ul :active {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li :active  {
+ 
+  margin: 20px 0;
+}
+
+.sidebar ul li a:active{
+  background-color: blue;
+  color: rgb(255, 238, 0);
+  text-decoration: none;
+}
+
+.content {
+ 
+  flex: 1;
+  padding: 20px;
+}
